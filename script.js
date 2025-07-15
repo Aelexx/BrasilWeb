@@ -351,10 +351,18 @@ function rever(arr) {
 }
 console.log(rever(arr));
 */
-//12. Step of arr
+
+//12. Size of step in array
 function ars() {
-  for (let j = 1; j < 100; j + 2) {
-    console.log(j);
+    for (let j = 0; j < 100; j+=5) {
+      console.log(j);
+    }
   }
-}
-console.log(ars());
+  console.log(ars());
+  
+  //13. Filter method for array
+  const aaa = ["Terrence", "South", "Belohorizonte", "Bos"];
+  const bbb = aaa.filter ((word) => word.length > 5);
+  console.log(bbb);
+
+
