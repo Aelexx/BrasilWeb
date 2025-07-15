@@ -252,7 +252,7 @@ async function asyncall() {
   console.log(resa);
 }
 asyncall();
-*/
+
 //T A S K
 //1. Min and max element in array
 const nums = [1, 5, 6, 2, 3];
@@ -350,7 +350,7 @@ function rever(arr) {
   return arr.reverse();
 }
 console.log(rever(arr));
-
+*/
 //12. Step of arr
 function ars() {
   for (let j = 1; j < 100; j + 2) {
